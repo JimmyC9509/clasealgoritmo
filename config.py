@@ -2,12 +2,12 @@ from flask_sqlalchemy import SQLAlchemy
 
 # config.py
 USER = 'root'
-POSSWOED = ''
+PASSWORD = ''
 HOST = 'localhost'
-DATABASE ='cursePython'
+DATABASE ='python'
 
 # configuracion de la base de datos
-DATABASE_URI = f'mysql+pymysql://{USER}:{POSSWOED}@{HOST}/{DATABASE}'
+DATABASE_URI = f'mysql+pymysql://{USER}:{PASSWORD}@{HOST}/{DATABASE}'
 db = SQLAlchemy()
 
 
